@@ -51,7 +51,7 @@ public class SlackSlashCommand {
      * @param responseUrl
      * @return
      */
-    @RequestMapping(value = "/slash-command",
+    @RequestMapping(value = "/calculator",
             method = RequestMethod.POST,
             consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
     public RichMessage onReceiveSlashCommand(@RequestParam("token") String token,
@@ -64,6 +64,8 @@ public class SlackSlashCommand {
                                              @RequestParam("command") String command,
                                              @RequestParam("text") String text,
                                              @RequestParam("response_url") String responseUrl) {
+        System.out.println("====== SLASH COMMAND RUNS ====");
+
         // validate token
         if (!token.equals(slackToken)) {
             return new RichMessage("Sorry! You're not lucky enough to use our slack command.");
