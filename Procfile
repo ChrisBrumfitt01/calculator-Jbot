@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar  jbot-example/target/jbot-example-4.1.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar  calculator-bot/target/calculator-bot-4.1.1-SNAPSHOT.jar
