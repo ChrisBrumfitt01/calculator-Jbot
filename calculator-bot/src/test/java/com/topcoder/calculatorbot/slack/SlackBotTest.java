@@ -1,4 +1,4 @@
-package example.jbot.slack;
+package com.topcoder.calculatorbot.slack;
 
 
 import me.ramswaroop.jbot.core.common.Controller;

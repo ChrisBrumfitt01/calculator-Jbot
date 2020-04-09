@@ -1,4 +1,4 @@
-package example.jbot.facebook;
+package com.topcoder.calculatorbot.facebook;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import me.ramswaroop.jbot.core.common.Controller;

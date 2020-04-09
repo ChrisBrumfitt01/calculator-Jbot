@@ -1,4 +1,4 @@
-package example.jbot.slack;
+package com.topcoder.calculatorbot.slack;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

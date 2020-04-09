@@ -1,4 +1,4 @@
-package example.jbot.facebook;
+package com.topcoder.calculatorbot.facebook;
 
 import me.ramswaroop.jbot.core.common.Controller;
 import me.ramswaroop.jbot.core.common.EventType;
@@ -7,8 +7,6 @@ import me.ramswaroop.jbot.core.facebook.Bot;
 import me.ramswaroop.jbot.core.facebook.models.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;
-
-import javax.annotation.PostConstruct;
 
 /**
  * A simple Facebook Bot. You can create multiple bots by just
